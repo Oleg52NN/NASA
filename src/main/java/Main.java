@@ -42,7 +42,7 @@ public class Main {
 
         String fileName = post.getTitle() + "." + typeFile;
         copyFile(post.getUrl(), fileName);
-//        System.out.println(post);
+     System.out.println(post);
     }
 
     private static void copyFile(String nameSource, String fileName) throws IOException {
